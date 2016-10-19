@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Kindergarden Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kindergarden Survey</h1>
+      <h4>Tell us about yourself...</h4>
+      <form id="name">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="nameinput">What is your Name?</label>
+              <input id="nameinput" class="form-control" type="text">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="birthinput">When were you born?</label>
+              <input id="birthinput" class="form-control" type="date">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="colorinput">What is your favorite color?</label>
+              <input id="colorinput" class="form-control" type="color">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="daddyinput">Who is your Daddy and what does he do?</label>
+              <input id="daddyinput" class="form-control" type="text">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <h4>Is it a tumor?</h4>
+            <div class="radio">
+              <label for="tumorinput">
+                <input id="tumorinput" name="tumor" value="yes" type="radio">
+                Yes
+              </label>
+            </div>
+
+            <div class="radio">
+              <label for="tumorinput">
+                <input id="tumorinput" name="tumor" value="maybe" type="radio">
+                Maybe it's a tumor.
+              </label>
+            </div>
+
+            <div class="radio">
+              <label for="tumorinput">
+                <input id="tumorinput" name="tumor" value="no" type="radio">
+                It's not a tumor!
+              </label>
+            </div>
+
+          </div>
+
+          <div class="col-md-4">
+            <h4>Does the ferret ever bite?</h4>
+            <select id="jobinput" class="form-control">
+              <option> </option>
+              <option>If the ferret bites you, you get rabies and you die.</option>
+              <option>No, he never bites.</option>
+              <option>He only bites bad people.</option>
+            </select>
+          </div>
+        </div>
+
+      </form>
+      <div class="favoriteColor">
+      </div>
+    </div>
+
+  </body>
+</html>
+
+<!--Select Box, radio buttons, date, color, text-->
